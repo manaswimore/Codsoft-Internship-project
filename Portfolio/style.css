@@ -1,0 +1,304 @@
+/* =========================
+   COLOR SYSTEM
+========================= */
+:root {
+  --bg-dark: #0b1220;
+  --bg-mid: #0f172a;
+  --bg-blue: #1e3a8a;
+  --primary: #4a6cf7;
+  --card-bg: #111827;
+  --text-light: #e5e7eb;
+  --text-muted: #9ca3af;
+  --border: #1f2937;
+  --glow: rgba(74,108,247,0.4);
+}
+
+/* =========================
+   GLOBAL
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top,
+              var(--bg-blue),
+              var(--bg-mid),
+              var(--bg-dark));
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+nav {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav h2 {
+  color: var(--primary);
+  text-shadow: 0 0 10px var(--glow);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 span {
+  color: var(--primary);
+  text-shadow: 0 0 15px var(--glow);
+}
+
+header p {
+  color: var(--text-muted);
+  margin-top: 10px;
+}
+/* HERO FULL SCREEN */
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* FULL SCREEN IMAGE */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* LIGHT OVERLAY (NO BLUR) */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(11,18,32,0.35),
+    rgba(15,23,42,0.45)
+  );
+  z-index: 2;
+}
+
+/* CONTENT ON TOP */
+.hero-content {
+  position: relative;
+  z-index: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #e5e7eb;
+}
+
+/* TEXT STYLING */
+.hero-content h1 span {
+  color: var(--primary);
+}
+
+.hero-content p {
+  color: #c7d2fe;
+  margin-top: 10px;
+}
+/* TEXT HOVER EFFECT */
+.hero-content h1,
+.hero-content p {
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover on whole hero-content */
+.hero-content:hover h1 {
+  transform: translateY(-4px);
+  text-shadow: 0 0 12px rgba(74,108,247,0.6);
+}
+
+.hero-content:hover p {
+  transform: translateY(2px);
+  text-shadow: 0 0 10px rgba(74,108,247,0.4);
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+.btn {
+  background: linear-gradient(135deg, #4a6cf7, #6a8cff);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+  box-shadow: 0 0 15px var(--glow);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 25px var(--glow);
+}
+
+/* =========================
+   SECTIONS
+========================= */
+section {
+  padding: 70px 60px;
+}
+
+section h2 {
+  color: var(--primary);
+  margin-bottom: 25px;
+}
+
+/* =========================
+   CARD / GLASS EFFECT
+========================= */
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 24, 39, 0.95),
+    rgba(17, 24, 39, 0.85)
+  );
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+/* =========================
+   ABOUT
+========================= */
+#about img {
+  width: 140px;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+  box-shadow: 0 0 20px var(--glow);
+}
+
+/* =========================
+   SKILLS
+========================= */
+.skill {
+  margin-bottom: 20px;
+}
+
+.bar {
+  background: #1f2937;
+  height: 10px;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #4a6cf7, #6a8cff);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--glow);
+}
+
+/* =========================
+   PROJECTS
+========================= */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.project {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 25px;
+  transition: 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px var(--glow);
+}
+
+/* =========================
+   CONTACT FORM
+========================= */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0f172a;
+  color: var(--text-light);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-muted);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 10px var(--glow);
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+}
