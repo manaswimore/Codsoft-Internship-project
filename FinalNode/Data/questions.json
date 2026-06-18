@@ -1,0 +1,3936 @@
+[
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "What is the time complexity to access an element in an array?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "Which data structure stores elements in contiguous memory locations?",
+    "options": ["Linked List", "Stack", "Queue", "Array"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "Which of the following is immutable in most programming languages?",
+    "options": ["Array", "Linked List", "String", "Stack"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "Recursion is best described as?",
+    "options": [
+      "Function calling another function",
+      "Function calling itself",
+      "Loop inside function",
+      "Conditional execution"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "What is the base case in recursion?",
+    "options": [
+      "Condition to stop recursion",
+      "Recursive call",
+      "Loop condition",
+      "Stack overflow"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "Which sorting algorithm is easiest to implement using recursion?",
+    "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "Which of the following causes stack overflow?",
+    "options": [
+      "Too many loops",
+      "Large array size",
+      "Infinite recursion",
+      "Memory leak"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "Which operation is costly in arrays?",
+    "options": ["Access", "Insertion", "Traversal", "Update"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "What is the time complexity of linear search in an array?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Arrays, Strings and Recursion",
+    "question": "Which data structure uses recursion internally?",
+    "options": ["Queue", "Tree", "Array", "Stack"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Which principle does stack follow?",
+    "options": ["FIFO", "LIFO", "FILO", "LILO"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Which operation removes an element from stack?",
+    "options": ["Push", "Pop", "Peek", "Insert"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Queue follows which principle?",
+    "options": ["LIFO", "FILO", "FIFO", "LILO"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Which application uses stack?",
+    "options": [
+      "CPU Scheduling",
+      "Expression Evaluation",
+      "Disk Scheduling",
+      "Page Replacement"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Which data structure is used for BFS?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Which queue allows insertion and deletion at both ends?",
+    "options": ["Circular Queue", "Priority Queue", "Deque", "Simple Queue"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Which operation returns top element without removing it?",
+    "options": ["Push", "Pop", "Peek", "Delete"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Overflow occurs when?",
+    "options": [
+      "Stack is empty",
+      "Queue is empty",
+      "Stack is full",
+      "Queue is full"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Underflow occurs when?",
+    "options": [
+      "Stack is empty",
+      "Stack is full",
+      "Queue is full",
+      "Memory overflow"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Stacks, Queues and Applications",
+    "question": "Which data structure is used for undo-redo operations?",
+    "options": ["Queue", "Array", "Stack", "Tree"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which data structure uses nodes connected by pointers?",
+    "options": ["Array", "Stack", "Linked List", "Queue"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which linked list allows traversal in both directions?",
+    "options": ["Singly", "Circular", "Doubly", "Linear"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "What is the time complexity to insert at the beginning of a linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which linked list has last node pointing to first node?",
+    "options": ["Singly", "Doubly", "Circular", "Linear"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which operation is costly in linked list compared to array?",
+    "options": ["Insertion", "Deletion", "Access", "Traversal"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which pointer is absent in singly linked list?",
+    "options": ["Next", "Prev", "Head", "Tail"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which application uses linked list?",
+    "options": ["Polynomial manipulation", "Binary search", "Sorting", "Hashing"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which linked list uses extra memory?",
+    "options": ["Singly", "Circular", "Doubly", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which data structure is best for dynamic memory allocation?",
+    "options": ["Array", "Stack", "Queue", "Linked List"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Linked Lists",
+    "question": "Which linked list node contains data and pointer?",
+    "options": ["Header", "Footer", "Info", "Node"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "What is the maximum number of children of a binary tree node?",
+    "options": ["1", "2", "3", "Unlimited"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "Which traversal gives sorted order in BST?",
+    "options": ["Preorder", "Postorder", "Inorder", "Level order"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "What is the height of a tree with single node?",
+    "options": ["0", "1", "2", "Depends"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "Which tree has all leaf nodes at same level?",
+    "options": ["Binary Tree", "Complete Tree", "Perfect Tree", "BST"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "Which traversal uses stack?",
+    "options": ["Inorder", "Level order", "Breadth First", "Heap"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "What is the average search time in BST?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "Which traversal visits root first?",
+    "options": ["Inorder", "Postorder", "Preorder", "Level order"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "Which tree is used in expression evaluation?",
+    "options": ["BST", "AVL", "Expression Tree", "Heap"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "What is the degree of leaf node?",
+    "options": ["0", "1", "2", "Depends"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Trees and Binary Search Trees",
+    "question": "Which data structure is hierarchical?",
+    "options": ["Array", "Linked List", "Tree", "Stack"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Graph consists of?",
+    "options": ["Nodes only", "Edges only", "Vertices and Edges", "Trees"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Which traversal uses queue?",
+    "options": ["DFS", "BFS", "Inorder", "Postorder"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Which traversal uses stack?",
+    "options": ["BFS", "DFS", "Level order", "Heap"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Which graph has direction on edges?",
+    "options": ["Undirected", "Weighted", "Directed", "Cyclic"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Which traversal is used to find shortest path?",
+    "options": ["DFS", "BFS", "Inorder", "Heap"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Maximum edges in complete graph with n vertices?",
+    "options": ["n", "n-1", "n(n-1)/2", "n²"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Which representation uses adjacency matrix?",
+    "options": ["Tree", "Graph", "Stack", "Queue"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "DFS traversal is implemented using?",
+    "options": ["Queue", "Stack", "Array", "Tree"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Which algorithm detects cycle in graph?",
+    "options": ["BFS", "DFS", "Binary Search", "Heap Sort"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Graphs and Graph Traversals",
+    "question": "Graph with no cycles is called?",
+    "options": ["Cyclic", "Tree", "DAG", "Connected"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Which sorting algorithm has best average time complexity?",
+    "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Which sorting algorithm is stable?",
+    "options": ["Heap Sort", "Quick Sort", "Merge Sort", "Selection Sort"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Which searching algorithm requires sorted array?",
+    "options": ["Linear Search", "Binary Search", "DFS", "BFS"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Worst case time complexity of quick sort?",
+    "options": ["O(n)", "O(n log n)", "O(log n)", "O(n²)"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Which algorithm uses divide and conquer?",
+    "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Which sorting algorithm is in-place?",
+    "options": ["Merge Sort", "Heap Sort", "Counting Sort", "Radix Sort"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Best case time complexity of linear search?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Which sorting algorithm repeatedly selects minimum element?",
+    "options": ["Insertion Sort", "Selection Sort", "Bubble Sort", "Quick Sort"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Which algorithm is fastest for large datasets?",
+    "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Sorting and Searching Algorithms",
+    "question": "Binary search time complexity?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "What is an operating system?",
+    "options": ["Application software", "System software", "Utility software", "Hardware"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "Which of the following is NOT a function of OS?",
+    "options": ["Process management", "Memory management", "Compiler design", "File management"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "A process is defined as?",
+    "options": ["Program in execution", "Program in memory", "Executable file", "Instruction set"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "Which state is a process waiting for I/O?",
+    "options": ["Ready", "Running", "Waiting", "New"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "Process Control Block (PCB) contains?",
+    "options": ["Program counter", "CPU registers", "Process state", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "Which OS allows multiple users at the same time?",
+    "options": ["Batch OS", "Single user OS", "Time sharing OS", "Embedded OS"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "Which component handles process scheduling?",
+    "options": ["Kernel", "Shell", "Compiler", "Assembler"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "Which process state comes after Ready?",
+    "options": ["Waiting", "Running", "New", "Terminated"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "Which OS is used for real-time applications?",
+    "options": ["Batch OS", "RTOS", "Time sharing OS", "Distributed OS"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction and Process Management",
+    "question": "What is the core of an OS called?",
+    "options": ["Shell", "Kernel", "Hardware", "Application"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Which scheduling algorithm gives minimum average waiting time?",
+    "options": ["FCFS", "SJF", "Round Robin", "Priority"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Which scheduling algorithm uses time quantum?",
+    "options": ["FCFS", "Priority", "SJF", "Round Robin"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Which scheduling algorithm is preemptive?",
+    "options": ["FCFS", "SJF", "Round Robin", "FCFS only"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Starvation occurs in which scheduling?",
+    "options": ["FCFS", "Priority", "Round Robin", "FIFO"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Convoy effect occurs in?",
+    "options": ["SJF", "Round Robin", "FCFS", "Priority"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Which scheduling is best for time-sharing system?",
+    "options": ["FCFS", "SJF", "Priority", "Round Robin"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Which algorithm has highest context switching?",
+    "options": ["FCFS", "SJF", "Round Robin", "Priority"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Turnaround time is equal to?",
+    "options": ["Completion time - Arrival time", "Waiting time + Burst time", "Arrival time - Burst time", "Execution time"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Which scheduling may cause unfair CPU allocation?",
+    "options": ["FCFS", "Round Robin", "SJF", "FIFO"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "CPU Scheduling Algorithms",
+    "question": "Which algorithm uses circular queue?",
+    "options": ["FCFS", "Priority", "SJF", "Round Robin"],
+    "correctAnswer": 3
+  },
+
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Critical section problem deals with?",
+    "options": ["Memory management", "Process synchronization", "CPU scheduling", "File system"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Which is used to solve critical section problem?",
+    "options": ["Semaphore", "Scheduler", "Compiler", "Paging"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Binary semaphore is also known as?",
+    "options": ["Mutex", "Monitor", "Spinlock", "Barrier"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Deadlock occurs when?",
+    "options": ["Processes wait indefinitely", "CPU is idle", "Memory is full", "I/O is slow"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Which is NOT a deadlock condition?",
+    "options": ["Mutual exclusion", "Hold and wait", "Preemption", "Circular wait"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Which algorithm avoids deadlock?",
+    "options": ["FIFO", "LRU", "Banker's Algorithm", "Round Robin"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Which problem uses semaphore?",
+    "options": ["Dining Philosophers", "Binary search", "Sorting", "Hashing"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Deadlock prevention eliminates which condition?",
+    "options": ["Circular wait", "Mutual exclusion", "Hold and wait", "All of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Which method detects deadlock?",
+    "options": ["Prevention", "Avoidance", "Detection", "Ignoring"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Process Synchronization and Deadlocks",
+    "question": "Monitor is a?",
+    "options": ["Hardware", "Synchronization tool", "Scheduler", "Memory unit"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Memory Management",
+    "question": "Which memory allocation causes external fragmentation?",
+    "options": ["Paging", "Segmentation", "Contiguous allocation", "Virtual memory"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Paging eliminates which fragmentation?",
+    "options": ["Internal", "External", "Both", "None"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Main memory is also called?",
+    "options": ["Secondary memory", "Cache", "RAM", "ROM"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Which allocation is fastest?",
+    "options": ["First fit", "Best fit", "Worst fit", "Next fit"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Logical address is generated by?",
+    "options": ["CPU", "MMU", "OS", "Cache"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Physical address is generated by?",
+    "options": ["CPU", "OS", "MMU", "Compiler"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Which supports logical view of memory?",
+    "options": ["Paging", "Segmentation", "Swapping", "Partitioning"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Which table is used in paging?",
+    "options": ["Segment table", "Page table", "Frame table", "Block table"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Internal fragmentation occurs in?",
+    "options": ["Paging", "Segmentation", "Swapping", "Dynamic allocation"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Memory Management",
+    "question": "Which memory is volatile?",
+    "options": ["ROM", "Cache", "RAM", "Hard disk"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Virtual memory allows execution of programs?",
+    "options": ["Smaller than memory", "Larger than memory", "Equal to memory", "Independent of memory"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Demand paging loads pages?",
+    "options": ["Initially", "When needed", "At compile time", "At boot time"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Page fault occurs when?",
+    "options": ["Page is in memory", "Page is not in memory", "Memory is full", "Cache miss"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Which page replacement is optimal?",
+    "options": ["FIFO", "LRU", "Optimal", "Random"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Thrashing means?",
+    "options": ["High CPU usage", "Excessive paging", "Low memory", "Disk failure"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Which replacement uses recent past?",
+    "options": ["FIFO", "LRU", "Optimal", "Random"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Which algorithm suffers Belady’s anomaly?",
+    "options": ["FIFO", "LRU", "Optimal", "All"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Working set is?",
+    "options": ["Set of pages in memory", "All program pages", "Cache pages", "Disk blocks"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Which memory is backing store?",
+    "options": ["RAM", "Cache", "Hard disk", "ROM"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Virtual Memory",
+    "question": "Which technique avoids thrashing?",
+    "options": ["Working set", "FIFO", "Random", "Demand paging"],
+    "correctAnswer": 0
+  },
+
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "File system is used for?",
+    "options": ["Memory allocation", "Data storage", "Process scheduling", "CPU management"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "Which is a file allocation method?",
+    "options": ["Paging", "Contiguous", "Swapping", "Segmentation"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "Which allocation reduces fragmentation?",
+    "options": ["Contiguous", "Linked", "Indexed", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "Which file system is used in Linux?",
+    "options": ["FAT", "NTFS", "EXT", "HFS"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "I/O device communicates via?",
+    "options": ["Registers", "Device controller", "Cache", "RAM"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "Which technique overlaps I/O and CPU?",
+    "options": ["Polling", "Interrupt", "DMA", "Spooling"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "Which is NOT a file attribute?",
+    "options": ["Name", "Size", "Type", "CPU time"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "Which handles I/O interrupts?",
+    "options": ["Kernel", "Shell", "Compiler", "User"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "Which system call is used for file access?",
+    "options": ["open()", "read()", "write()", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "File Systems and I/O Systems",
+    "question": "Which I/O technique is fastest?",
+    "options": ["Polling", "Interrupt", "DMA", "Spooling"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "What is a database?",
+    "options": ["Collection of programs", "Collection of related data", "Operating system", "Data structure"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "Which level of DBMS architecture describes how data is stored?",
+    "options": ["External", "Conceptual", "Internal", "Logical"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "Which model represents data as tables?",
+    "options": ["Hierarchical", "Network", "Relational", "Object-oriented"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "Data independence refers to?",
+    "options": ["Data security", "Data abstraction", "Data redundancy", "Data sharing"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "Which schema describes overall database structure?",
+    "options": ["Internal", "External", "Conceptual", "Physical"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "DBMS stands for?",
+    "options": ["Data Backup System", "Database Management System", "Data Manipulation System", "Database Modeling Software"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "Which is not a DBMS function?",
+    "options": ["Data storage", "Transaction management", "Process scheduling", "Data retrieval"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "Which language is used to define database schema?",
+    "options": ["DML", "DDL", "DCL", "TCL"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "Which component manages data storage?",
+    "options": ["Query processor", "Storage manager", "Transaction manager", "Compiler"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Database Concepts and Architecture",
+    "question": "Which architecture provides data abstraction?",
+    "options": ["One-tier", "Two-tier", "Three-tier", "Client-server"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "ER model is used for?",
+    "options": ["Database implementation", "Database design", "Query processing", "Indexing"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "An entity is?",
+    "options": ["Attribute", "Relationship", "Real-world object", "Key"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "Attribute that uniquely identifies an entity is?",
+    "options": ["Foreign key", "Composite key", "Primary key", "Candidate key"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "Relationship degree refers to?",
+    "options": ["Number of attributes", "Number of entities involved", "Number of tuples", "Number of keys"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "Weak entity depends on?",
+    "options": ["Primary key", "Strong entity", "Foreign key", "Relationship"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "Cardinality defines?",
+    "options": ["Number of attributes", "Mapping between entities", "Key type", "Table size"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "Which symbol represents entity?",
+    "options": ["Ellipse", "Diamond", "Rectangle", "Line"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "Which represents relationship?",
+    "options": ["Rectangle", "Ellipse", "Diamond", "Circle"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "Multivalued attribute is shown using?",
+    "options": ["Double ellipse", "Single ellipse", "Diamond", "Rectangle"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Entity Relationship Model",
+    "question": "Derived attribute is?",
+    "options": ["Stored", "Calculated", "Key", "Multivalued"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Relation in DBMS is?",
+    "options": ["Row", "Column", "Table", "Key"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Tuple represents?",
+    "options": ["Column", "Table", "Row", "Relation"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Which key uniquely identifies a tuple?",
+    "options": ["Foreign key", "Primary key", "Composite key", "Candidate key"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "SQL stands for?",
+    "options": ["Structured Query Language", "Simple Query Language", "Standard Query Logic", "System Query Language"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Which SQL command retrieves data?",
+    "options": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Which clause is used to filter rows?",
+    "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Which constraint ensures uniqueness?",
+    "options": ["NOT NULL", "CHECK", "UNIQUE", "DEFAULT"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Which join returns matching records?",
+    "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Which SQL statement removes table?",
+    "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Relational Model and SQL",
+    "question": "Which function returns number of rows?",
+    "options": ["SUM()", "COUNT()", "AVG()", "MAX()"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Normalization",
+    "question": "Normalization reduces?",
+    "options": ["Data redundancy", "Data security", "Data integrity", "Data loss"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "First Normal Form removes?",
+    "options": ["Partial dependency", "Transitive dependency", "Multivalued attributes", "Functional dependency"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "Second Normal Form removes?",
+    "options": ["Partial dependency", "Transitive dependency", "Repeating groups", "Keys"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "Third Normal Form removes?",
+    "options": ["Partial dependency", "Multivalued dependency", "Transitive dependency", "Functional dependency"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "BCNF is stronger than?",
+    "options": ["1NF", "2NF", "3NF", "4NF"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "Which dependency causes redundancy?",
+    "options": ["Functional", "Partial", "Transitive", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "Normalization is based on?",
+    "options": ["Keys", "Dependencies", "Indexes", "Constraints"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "Which form handles multivalued dependency?",
+    "options": ["3NF", "BCNF", "4NF", "5NF"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "Denormalization increases?",
+    "options": ["Redundancy", "Integrity", "Security", "Consistency"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Normalization",
+    "question": "Goal of normalization is?",
+    "options": ["Speed", "Accuracy", "Reduce anomalies", "Storage"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Transaction is?",
+    "options": ["Single query", "Program unit", "Logical unit of work", "Thread"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "ACID property ensures?",
+    "options": ["Performance", "Reliability", "Security", "Speed"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Which property ensures all or nothing?",
+    "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Which schedule is serializable?",
+    "options": ["Concurrent", "Non-serial", "Equivalent to serial", "Random"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Which problem occurs without concurrency control?",
+    "options": ["Lost update", "Dirty read", "Uncommitted dependency", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Which lock allows multiple readers?",
+    "options": ["Exclusive", "Shared", "Binary", "None"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Which protocol avoids cascading rollback?",
+    "options": ["2PL", "Strict 2PL", "Timestamp", "Optimistic"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Deadlock occurs due to?",
+    "options": ["Circular wait", "Mutual exclusion", "Hold and wait", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Which technique resolves deadlock?",
+    "options": ["Detection", "Prevention", "Recovery", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Transactions and Concurrency Control",
+    "question": "Which property ensures committed data survives failure?",
+    "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+    "correctAnswer": 3
+  },
+
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Indexing improves?",
+    "options": ["Storage", "Query speed", "Concurrency", "Security"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Which index uses tree structure?",
+    "options": ["Hash index", "B-tree index", "Bitmap index", "Dense index"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Primary index is created on?",
+    "options": ["Primary key", "Foreign key", "Non-key", "Any attribute"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Dense index contains?",
+    "options": ["Index for every record", "Index for some records", "No index", "Clustered data"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Which technique is used for crash recovery?",
+    "options": ["Indexing", "Logging", "Normalization", "Locking"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Which log stores before and after values?",
+    "options": ["Undo log", "Redo log", "Undo-Redo log", "Binary log"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Checkpoint improves?",
+    "options": ["Performance", "Recovery time", "Security", "Concurrency"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Which index reduces disk I/O?",
+    "options": ["Sparse index", "Dense index", "Secondary index", "Hash index"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Recovery ensures?",
+    "options": ["Consistency", "Durability", "Atomicity", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Indexing and Recovery",
+    "question": "Which failure requires recovery?",
+    "options": ["System crash", "Transaction failure", "Disk failure", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "What is a computer network?",
+    "options": ["Single computer system", "Interconnection of computers", "Operating system", "Database"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "Which OSI layer is responsible for routing?",
+    "options": ["Transport", "Network", "Data Link", "Session"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "How many layers are there in OSI model?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "Which layer provides end-to-end delivery?",
+    "options": ["Network", "Transport", "Session", "Application"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "Which OSI layer handles encryption?",
+    "options": ["Presentation", "Session", "Application", "Transport"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "Which device works at Physical layer?",
+    "options": ["Router", "Switch", "Hub", "Gateway"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "Which layer establishes, manages and terminates sessions?",
+    "options": ["Transport", "Session", "Presentation", "Application"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "Which protocol works at Application layer?",
+    "options": ["IP", "TCP", "HTTP", "ARP"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "Which layer converts data into signals?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Network Fundamentals and OSI Model",
+    "question": "Which layer ensures reliable communication?",
+    "options": ["Network", "Transport", "Session", "Physical"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which transmission medium uses light?",
+    "options": ["Twisted pair", "Coaxial cable", "Optical fiber", "Radio waves"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which device operates at Data Link layer?",
+    "options": ["Router", "Switch", "Hub", "Repeater"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "MAC address is of how many bits?",
+    "options": ["32", "48", "64", "128"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which protocol is used for error detection?",
+    "options": ["CRC", "ARP", "IP", "ICMP"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which topology uses central device?",
+    "options": ["Bus", "Ring", "Star", "Mesh"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which multiple access technique is used in Ethernet?",
+    "options": ["CSMA/CD", "TDMA", "FDMA", "ALOHA"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which device regenerates signal?",
+    "options": ["Router", "Repeater", "Switch", "Bridge"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which layer provides framing?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which protocol maps IP to MAC?",
+    "options": ["RARP", "ARP", "ICMP", "DNS"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Physical and Data Link Layer",
+    "question": "Which switching technique forwards packets immediately?",
+    "options": ["Store and forward", "Cut-through", "Fragment free", "Buffering"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which protocol is used for logical addressing?",
+    "options": ["ARP", "IP", "TCP", "UDP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which routing algorithm uses shortest path?",
+    "options": ["Distance vector", "Link state", "Flooding", "Random"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which protocol uses Bellman-Ford algorithm?",
+    "options": ["OSPF", "RIP", "BGP", "IGRP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which routing protocol is link state?",
+    "options": ["RIP", "BGP", "OSPF", "EIGRP"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which device forwards packets based on IP?",
+    "options": ["Switch", "Router", "Hub", "Repeater"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which IP version uses 128-bit address?",
+    "options": ["IPv4", "IPv6", "IPX", "ARP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which algorithm causes count-to-infinity problem?",
+    "options": ["Link state", "Distance vector", "Flooding", "Random"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which protocol is used for error reporting?",
+    "options": ["ICMP", "ARP", "DNS", "FTP"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which routing is done within autonomous system?",
+    "options": ["Inter-domain", "Intra-domain", "External", "Static"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Layer and Routing Algorithms",
+    "question": "Which address uniquely identifies host?",
+    "options": ["MAC", "Port", "IP", "Subnet"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "Which protocol is connection-oriented?",
+    "options": ["UDP", "IP", "TCP", "ICMP"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "Which protocol is faster?",
+    "options": ["TCP", "UDP", "FTP", "HTTP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "Which uses three-way handshake?",
+    "options": ["UDP", "TCP", "IP", "DNS"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "Which port number is used by HTTP?",
+    "options": ["21", "23", "80", "443"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "Which protocol supports flow control?",
+    "options": ["UDP", "IP", "TCP", "ICMP"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "UDP header size is?",
+    "options": ["8 bytes", "16 bytes", "20 bytes", "32 bytes"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "TCP provides which service?",
+    "options": ["Unreliable", "Best effort", "Reliable", "Connectionless"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "Which protocol is used for streaming?",
+    "options": ["TCP", "UDP", "FTP", "SMTP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "Which field ensures ordered delivery?",
+    "options": ["ACK", "Sequence number", "Checksum", "Port"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Transport Layer (TCP and UDP)",
+    "question": "Which protocol does not guarantee delivery?",
+    "options": ["TCP", "UDP", "HTTP", "FTP"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol is used for email?",
+    "options": ["FTP", "SMTP", "HTTP", "SNMP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol transfers web pages?",
+    "options": ["FTP", "SMTP", "HTTP", "POP3"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol resolves domain names?",
+    "options": ["ARP", "DNS", "ICMP", "FTP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol is used for file transfer?",
+    "options": ["SMTP", "FTP", "HTTP", "SNMP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol uses port 25?",
+    "options": ["FTP", "SMTP", "HTTP", "DNS"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol retrieves email?",
+    "options": ["SMTP", "FTP", "POP3", "HTTP"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol is used for network management?",
+    "options": ["SNMP", "FTP", "DNS", "HTTP"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol uses port 443?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol supports secure web browsing?",
+    "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Application Layer Protocols",
+    "question": "Which protocol uses client-server model?",
+    "options": ["FTP", "HTTP", "Both", "None"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Network Security",
+    "question": "Which attack floods network traffic?",
+    "options": ["Phishing", "DoS", "Spoofing", "Sniffing"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which technique ensures confidentiality?",
+    "options": ["Encryption", "Authentication", "Authorization", "Firewall"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which device filters traffic?",
+    "options": ["Router", "Firewall", "Switch", "Hub"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which attack steals user credentials?",
+    "options": ["DoS", "Phishing", "Sniffing", "Replay"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which protocol provides secure communication?",
+    "options": ["HTTP", "FTP", "SSL/TLS", "Telnet"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which attack captures packets?",
+    "options": ["Sniffing", "Spoofing", "Phishing", "DoS"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which ensures data integrity?",
+    "options": ["Hashing", "Encryption", "Firewall", "Antivirus"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which security mechanism verifies identity?",
+    "options": ["Authorization", "Authentication", "Encryption", "Firewall"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which malware spreads automatically?",
+    "options": ["Virus", "Trojan", "Worm", "Spyware"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Network Security",
+    "question": "Which attack modifies data?",
+    "options": ["Interception", "Interruption", "Modification", "Fabrication"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "What is Object Oriented Programming?",
+    "options": [
+      "Programming with functions",
+      "Programming with objects",
+      "Programming with logic only",
+      "Programming with hardware"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Which of the following is NOT an OOP principle?",
+    "options": ["Encapsulation", "Inheritance", "Compilation", "Polymorphism"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Encapsulation refers to?",
+    "options": [
+      "Wrapping data and methods together",
+      "Deriving new classes",
+      "Multiple forms of function",
+      "Hiding implementation"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Which principle supports code reusability?",
+    "options": ["Encapsulation", "Abstraction", "Inheritance", "Polymorphism"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Abstraction focuses on?",
+    "options": ["Implementation", "Data hiding", "Essential features", "Memory"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Which allows one interface, many implementations?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Class is a?",
+    "options": ["Object", "Blueprint", "Method", "Variable"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Object is an instance of?",
+    "options": ["Method", "Class", "Variable", "Constructor"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Data hiding is achieved using?",
+    "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "OOP Concepts and Principles",
+    "question": "Which concept improves security?",
+    "options": ["Inheritance", "Encapsulation", "Polymorphism", "Compilation"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Constructor is used to?",
+    "options": [
+      "Destroy object",
+      "Initialize object",
+      "Call methods",
+      "Free memory"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Constructor name must be same as?",
+    "options": ["Method", "Class", "Object", "Variable"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "How many constructors can a class have?",
+    "options": ["One", "Two", "Multiple", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Which constructor has no parameters?",
+    "options": ["Parameterized", "Default", "Copy", "Static"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Which keyword creates object in Java?",
+    "options": ["malloc", "create", "new", "alloc"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Which is called automatically when object is created?",
+    "options": ["Destructor", "Constructor", "Method", "Function"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Copy constructor is used to?",
+    "options": [
+      "Create object",
+      "Copy values of object",
+      "Destroy object",
+      "Assign memory"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Constructor can be?",
+    "options": ["Private", "Protected", "Public", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Which language supports destructor?",
+    "options": ["Java", "C++", "Python", "JavaScript"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Classes, Objects and Constructors",
+    "question": "Which method releases resources in Java?",
+    "options": ["delete()", "free()", "finalize()", "destroy()"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Inheritance allows?",
+    "options": [
+      "Multiple classes",
+      "Code reuse",
+      "Data hiding",
+      "Security"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Which inheritance is not supported in Java?",
+    "options": ["Single", "Multilevel", "Hierarchical", "Multiple"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Which keyword is used to inherit class?",
+    "options": ["implements", "inherits", "extends", "super"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Polymorphism means?",
+    "options": [
+      "One form",
+      "Many forms",
+      "Multiple classes",
+      "Single object"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Method overloading is?",
+    "options": [
+      "Compile-time polymorphism",
+      "Run-time polymorphism",
+      "Inheritance",
+      "Abstraction"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Method overriding occurs at?",
+    "options": ["Compile time", "Run time", "Link time", "Load time"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Which keyword refers parent class object?",
+    "options": ["this", "super", "parent", "base"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Dynamic binding is also known as?",
+    "options": ["Static binding", "Late binding", "Early binding", "Compile binding"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Which cannot be overridden?",
+    "options": ["Static method", "Private method", "Final method", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Inheritance and Polymorphism",
+    "question": "Which supports runtime polymorphism?",
+    "options": ["Overloading", "Overriding", "Constructor", "Destructor"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Abstraction hides?",
+    "options": ["Data", "Implementation", "Memory", "Objects"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Abstract class can have?",
+    "options": ["Only abstract methods", "Only concrete methods", "Both", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Which keyword is used to create interface?",
+    "options": ["class", "interface", "implements", "extends"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Interface supports?",
+    "options": ["Multiple inheritance", "Single inheritance", "No inheritance", "Object creation"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Methods in interface are by default?",
+    "options": ["Private", "Protected", "Public", "Static"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Which keyword implements interface?",
+    "options": ["extends", "implements", "inherits", "super"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Abstract method has?",
+    "options": ["Body", "No body", "Static body", "Constructor"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Interface variables are?",
+    "options": ["Mutable", "Final", "Private", "Protected"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Abstraction improves?",
+    "options": ["Speed", "Security", "Complexity management", "Compilation"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Abstraction and Interfaces",
+    "question": "Which supports loose coupling?",
+    "options": ["Interface", "Class", "Constructor", "Object"],
+    "correctAnswer": 0
+  },
+
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Exception is?",
+    "options": [
+      "Syntax error",
+      "Runtime error",
+      "Logical error",
+      "Compile error"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Which block handles exception?",
+    "options": ["try", "catch", "finally", "throw"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Which block is always executed?",
+    "options": ["try", "catch", "throw", "finally"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Which keyword throws exception?",
+    "options": ["throw", "throws", "catch", "try"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Checked exceptions are?",
+    "options": [
+      "Compile-time",
+      "Runtime",
+      "Logical",
+      "System"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Which exception occurs when dividing by zero?",
+    "options": ["NullPointerException", "ArithmeticException", "IOException", "ArrayException"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Which keyword propagates exception?",
+    "options": ["throw", "throws", "catch", "final"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Which exception is unchecked?",
+    "options": ["IOException", "SQLException", "NullPointerException", "FileNotFoundException"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Exception handling improves?",
+    "options": ["Performance", "Reliability", "Security", "Speed"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Exception Handling",
+    "question": "Which is parent of all exceptions?",
+    "options": ["Object", "Throwable", "Exception", "Error"],
+    "correctAnswer": 1
+  },
+{
+    "unitTitle": "File Handling and Packages",
+    "question": "File handling is used to?",
+    "options": [
+      "Store data permanently",
+      "Store data temporarily",
+      "Process data faster",
+      "Secure data"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "Which class is used for file handling in Java?",
+    "options": [
+      "FileReader",
+      "Scanner",
+      "File",
+      "All of the above"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "Which mode is used to read a file?",
+    "options": [
+      "Write mode",
+      "Append mode",
+      "Read mode",
+      "Binary mode"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "Which stream is used to write binary data?",
+    "options": [
+      "FileReader",
+      "BufferedReader",
+      "FileOutputStream",
+      "PrintWriter"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "Which exception is thrown when file is not found?",
+    "options": [
+      "IOException",
+      "FileNotFoundException",
+      "NullPointerException",
+      "ClassNotFoundException"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "Package in Java is used to?",
+    "options": [
+      "Store files",
+      "Group related classes",
+      "Execute programs",
+      "Compile code"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "Which keyword is used to create a package?",
+    "options": [
+      "package",
+      "import",
+      "include",
+      "namespace"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "Which keyword is used to access a package?",
+    "options": [
+      "package",
+      "include",
+      "import",
+      "extends"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "Which package is imported by default in Java?",
+    "options": [
+      "java.io",
+      "java.util",
+      "java.lang",
+      "java.net"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "File Handling and Packages",
+    "question": "File handling improves?",
+    "options": [
+      "Data persistence",
+      "Program speed",
+      "Memory usage",
+      "CPU scheduling"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "What is software engineering?",
+    "options": [
+      "Designing hardware",
+      "Systematic development of software",
+      "Coding only",
+      "Testing only"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "Which model follows a linear sequence?",
+    "options": ["Spiral", "Agile", "Waterfall", "Prototype"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "Which model is risk-driven?",
+    "options": ["Waterfall", "Agile", "Spiral", "Incremental"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "Agile focuses on?",
+    "options": [
+      "Extensive documentation",
+      "Customer collaboration",
+      "Rigid planning",
+      "Late testing"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "Which model delivers software in small increments?",
+    "options": ["Waterfall", "Incremental", "V-Model", "RAD"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "RAD stands for?",
+    "options": [
+      "Rapid Application Development",
+      "Random Access Development",
+      "Rapid Agile Design",
+      "Real-time Application Design"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "Which model emphasizes verification and validation?",
+    "options": ["Waterfall", "Spiral", "V-Model", "Agile"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "Prototype model helps in?",
+    "options": [
+      "Risk reduction",
+      "Requirement clarification",
+      "Faster coding",
+      "Testing automation"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "Which model is best when requirements change frequently?",
+    "options": ["Waterfall", "Agile", "V-Model", "Spiral"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Process Models",
+    "question": "Which process model is most flexible?",
+    "options": ["Waterfall", "Agile", "V-Model", "RAD"],
+    "correctAnswer": 1
+  },
+
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Requirement engineering deals with?",
+    "options": [
+      "Coding",
+      "Testing",
+      "Requirement analysis",
+      "Maintenance"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Which requirement specifies system behavior?",
+    "options": ["Non-functional", "Functional", "User", "System"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "SRS stands for?",
+    "options": [
+      "Software Requirement Specification",
+      "System Requirement Software",
+      "Structured Requirement System",
+      "Software Resource Sheet"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Which requirement defines performance and security?",
+    "options": ["Functional", "Non-functional", "User", "Business"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Which technique gathers requirements from users?",
+    "options": ["Coding", "Testing", "Interview", "Deployment"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Ambiguous requirements cause?",
+    "options": [
+      "Better design",
+      "Project failure",
+      "Faster development",
+      "Low cost"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Which document is baseline for development?",
+    "options": ["Design document", "SRS", "Test plan", "User manual"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Requirements validation ensures?",
+    "options": [
+      "Correctness",
+      "Completeness",
+      "Consistency",
+      "All"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Which model helps visualize requirements?",
+    "options": ["ER diagram", "DFD", "Flowchart", "Algorithm"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Requirement Engineering",
+    "question": "Who approves final requirements?",
+    "options": ["Developer", "Tester", "Client", "Manager"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Software Design",
+    "question": "Software design converts?",
+    "options": [
+      "Requirements to code",
+      "Requirements to design",
+      "Code to test cases",
+      "Design to requirements"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Which design focuses on modules?",
+    "options": ["Architectural", "Detailed", "High-level", "Low-level"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Which principle reduces dependency?",
+    "options": ["High coupling", "Low cohesion", "Low coupling", "High cohesion"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Cohesion refers to?",
+    "options": [
+      "Inter-module dependency",
+      "Intra-module strength",
+      "Code reuse",
+      "Data hiding"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Which design pattern solves recurring problems?",
+    "options": ["Algorithm", "Framework", "Design pattern", "Model"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Which diagram shows system architecture?",
+    "options": ["Class diagram", "Use case diagram", "Component diagram", "Sequence diagram"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Which design hides internal details?",
+    "options": ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Top-down design starts from?",
+    "options": ["Modules", "Components", "Main system", "Functions"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Which design uses UML?",
+    "options": ["Testing", "Requirement", "Design", "Maintenance"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Design",
+    "question": "Which improves maintainability?",
+    "options": ["High coupling", "Low cohesion", "Low coupling", "Code duplication"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Coding phase involves?",
+    "options": ["Designing", "Implementing", "Testing", "Deployment"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Which testing tests individual units?",
+    "options": ["System", "Integration", "Unit", "Acceptance"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Black box testing focuses on?",
+    "options": ["Internal code", "Logic", "Functionality", "Structure"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "White box testing focuses on?",
+    "options": ["Functionality", "Code structure", "User interface", "Requirements"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Which testing is done by user?",
+    "options": ["Unit", "Integration", "System", "Acceptance"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Debugging is?",
+    "options": ["Testing", "Removing errors", "Writing code", "Designing"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Which testing checks interaction between modules?",
+    "options": ["Unit", "Integration", "System", "Regression"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Regression testing ensures?",
+    "options": [
+      "New features",
+      "Old features still work",
+      "Performance",
+      "Security"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Which testing is done after deployment?",
+    "options": ["Unit", "System", "Maintenance", "Acceptance"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Coding and Testing",
+    "question": "Which testing finds maximum errors?",
+    "options": ["Unit", "Integration", "System", "Debugging"],
+    "correctAnswer": 0
+  },
+
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Software maintenance occurs after?",
+    "options": ["Design", "Coding", "Deployment", "Testing"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Which maintenance fixes bugs?",
+    "options": ["Adaptive", "Corrective", "Preventive", "Perfective"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Which maintenance improves performance?",
+    "options": ["Corrective", "Adaptive", "Perfective", "Preventive"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Adaptive maintenance is done to?",
+    "options": [
+      "Fix errors",
+      "Improve performance",
+      "Adapt to environment",
+      "Prevent failures"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Which maintenance prevents future problems?",
+    "options": ["Corrective", "Adaptive", "Perfective", "Preventive"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Maintenance cost is highest in?",
+    "options": ["Design", "Coding", "Testing", "Maintenance"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Which document helps maintenance?",
+    "options": ["Code", "Design doc", "User manual", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Which maintenance adds new features?",
+    "options": ["Corrective", "Adaptive", "Perfective", "Preventive"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Which phase consumes most cost?",
+    "options": ["Development", "Testing", "Maintenance", "Design"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Maintenance",
+    "question": "Software maintenance improves?",
+    "options": ["Reliability", "Usability", "Performance", "All"],
+    "correctAnswer": 3
+  },
+
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Project management deals with?",
+    "options": ["Coding", "Planning and control", "Testing", "Maintenance"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Which tool is used for scheduling?",
+    "options": ["DFD", "ER diagram", "Gantt chart", "Flowchart"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Which estimates cost and effort?",
+    "options": ["COCOMO", "DFD", "UML", "PERT"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Which model estimates software cost?",
+    "options": ["Waterfall", "Spiral", "COCOMO", "Agile"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Which activity identifies risks?",
+    "options": ["Planning", "Risk management", "Scheduling", "Testing"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Which chart shows task dependencies?",
+    "options": ["Gantt", "PERT", "DFD", "UML"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Which metric measures productivity?",
+    "options": ["LOC", "COCOMO", "PERT", "DFD"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Which helps track project progress?",
+    "options": ["Planning", "Monitoring", "Design", "Coding"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Which risk affects schedule?",
+    "options": ["Technical", "Project", "Business", "External"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Software Project Management",
+    "question": "Successful project depends on?",
+    "options": ["Technology", "People", "Process", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Computer organization refers to?",
+    "options": [
+      "Logical design of computer",
+      "Physical structure of computer",
+      "Programming structure",
+      "Operating system design"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Which component performs arithmetic operations?",
+    "options": ["Control Unit", "ALU", "Memory", "Register"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Which unit controls all operations of computer?",
+    "options": ["ALU", "Register", "Control Unit", "Cache"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Which memory is fastest?",
+    "options": ["RAM", "ROM", "Cache", "Hard Disk"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Which register holds next instruction address?",
+    "options": ["IR", "PC", "MAR", "MDR"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Which memory is volatile?",
+    "options": ["ROM", "Cache", "Hard Disk", "Secondary memory"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Instruction cycle consists of?",
+    "options": [
+      "Fetch and Execute",
+      "Fetch, Decode, Execute",
+      "Read and Write",
+      "Load and Store"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Which bus carries addresses?",
+    "options": ["Data bus", "Control bus", "Address bus", "System bus"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Which memory stores firmware?",
+    "options": ["RAM", "ROM", "Cache", "Register"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Basic Computer Organization",
+    "question": "Which unit decodes instructions?",
+    "options": ["ALU", "Memory", "Control Unit", "Register"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Instruction set is?",
+    "options": [
+      "Set of registers",
+      "Set of instructions supported by CPU",
+      "Set of memory locations",
+      "Set of programs"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Immediate addressing uses?",
+    "options": [
+      "Memory location",
+      "Register",
+      "Constant value",
+      "Index register"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Which addressing mode is fastest?",
+    "options": ["Direct", "Indirect", "Immediate", "Register"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Indirect addressing requires?",
+    "options": [
+      "One memory access",
+      "Two memory accesses",
+      "Register access",
+      "No memory access"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Which mode supports arrays?",
+    "options": ["Immediate", "Register", "Indexed", "Direct"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Relative addressing is used in?",
+    "options": ["Loops", "Arithmetic", "I/O", "Data transfer"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Which addressing mode uses PC?",
+    "options": ["Immediate", "Relative", "Indexed", "Indirect"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Effective address is calculated in?",
+    "options": ["Immediate", "Indexed", "Register", "All except immediate"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Zero address instruction uses?",
+    "options": ["Register", "Stack", "Memory", "Cache"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Instruction Set and Addressing Modes",
+    "question": "Opcode specifies?",
+    "options": ["Operation", "Address", "Register", "Data"],
+    "correctAnswer": 0
+  },
+
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "Which unit generates control signals?",
+    "options": ["ALU", "Register", "Control Unit", "Memory"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "Hardwired control unit is?",
+    "options": [
+      "Faster",
+      "Slower",
+      "Flexible",
+      "Programmable"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "Microprogrammed control is?",
+    "options": [
+      "Fast",
+      "Flexible",
+      "Hardwired",
+      "Simple"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "Which memory stores microinstructions?",
+    "options": ["Cache", "Control memory", "Main memory", "ROM"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "RISC architecture emphasizes?",
+    "options": [
+      "Complex instructions",
+      "Simple instructions",
+      "Microprogramming",
+      "Large memory"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "CISC architecture uses?",
+    "options": [
+      "Few instructions",
+      "Simple instructions",
+      "Complex instructions",
+      "Pipeline only"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "Which architecture has fixed instruction length?",
+    "options": ["CISC", "RISC", "VLIW", "Hybrid"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "Pipeline improves?",
+    "options": ["Latency", "Throughput", "Memory", "Power"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "Pipeline hazard occurs due to?",
+    "options": [
+      "Instruction overlap",
+      "Memory overflow",
+      "Cache miss",
+      "Clock skew"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "CPU Organization and Control Unit",
+    "question": "Which hazard occurs due to branch?",
+    "options": ["Structural", "Data", "Control", "Memory"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Memory hierarchy is based on?",
+    "options": [
+      "Speed and cost",
+      "Size only",
+      "Power",
+      "Addressing"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Which memory has largest capacity?",
+    "options": ["Cache", "RAM", "Registers", "Secondary memory"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Cache memory stores?",
+    "options": [
+      "All data",
+      "Frequently used data",
+      "Instructions only",
+      "Programs only"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Cache mapping technique with least misses?",
+    "options": ["Direct", "Fully associative", "Set associative", "Random"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Which cache mapping is fastest?",
+    "options": ["Direct", "Fully associative", "Set associative", "None"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Hit ratio is?",
+    "options": [
+      "Misses/Total",
+      "Hits/Total",
+      "Hits/Misses",
+      "Misses/Hits"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Which memory uses virtual addressing?",
+    "options": ["Cache", "RAM", "Virtual memory", "ROM"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Which policy writes data immediately?",
+    "options": ["Write-back", "Write-through", "FIFO", "LRU"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "Page size is decided by?",
+    "options": ["Hardware", "OS", "User", "Compiler"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Memory Organization",
+    "question": "TLB stores?",
+    "options": ["Instructions", "Data", "Page table entries", "Cache blocks"],
+    "correctAnswer": 2
+  },
+
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Which technique reduces CPU involvement?",
+    "options": ["Polling", "Interrupt", "DMA", "Programmed I/O"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "DMA stands for?",
+    "options": [
+      "Direct Memory Access",
+      "Dynamic Memory Allocation",
+      "Data Memory Access",
+      "Direct Module Access"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Which I/O method is simplest?",
+    "options": ["DMA", "Interrupt", "Polling", "Channel I/O"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Interrupt driven I/O improves?",
+    "options": [
+      "CPU utilization",
+      "Memory usage",
+      "Power",
+      "Latency"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Which component manages I/O devices?",
+    "options": ["CPU", "Device controller", "Cache", "Memory"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Which bus connects peripherals?",
+    "options": ["Data bus", "Control bus", "I/O bus", "Address bus"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Which I/O uses interrupts?",
+    "options": [
+      "Programmed I/O",
+      "Interrupt driven I/O",
+      "DMA",
+      "Polling"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Which I/O is fastest?",
+    "options": ["Polling", "Interrupt", "DMA", "Channel I/O"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Buffering is used to?",
+    "options": [
+      "Reduce speed mismatch",
+      "Increase speed",
+      "Store instructions",
+      "Store programs"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Input Output Organization",
+    "question": "Which handles multiple I/O devices?",
+    "options": ["DMA", "I/O channel", "CPU", "Cache"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "Finite automata consists of?",
+    "options": ["Infinite states", "Finite states", "Infinite input", "No transitions"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "DFA stands for?",
+    "options": ["Dynamic Finite Automaton", "Deterministic Finite Automaton", "Directed Finite Automaton", "Discrete Finite Automaton"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "Which automaton allows ε-moves?",
+    "options": ["DFA", "NFA", "Both", "None"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "Which language is accepted by finite automata?",
+    "options": ["Regular", "Context-free", "Recursive", "Context-sensitive"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "Which automaton is more powerful?",
+    "options": ["DFA", "NFA", "Both are equal", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "FA cannot recognize?",
+    "options": ["a*", "(a+b)*", "a^n b^n", "ε"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "Which tool represents FA?",
+    "options": ["State diagram", "Transition table", "Transition function", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "Which is NOT a component of FA?",
+    "options": ["States", "Input alphabet", "Stack", "Transition function"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "Start state is?",
+    "options": ["Optional", "Multiple", "Unique", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Finite Automata",
+    "question": "Finite automata are used in?",
+    "options": ["Parsing", "Lexical analysis", "Code generation", "Optimization"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Regular expression represents?",
+    "options": ["Grammar", "Language", "Automaton", "Token"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Which operation is NOT part of regular expressions?",
+    "options": ["Union", "Concatenation", "Kleene star", "Intersection"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Kleene star means?",
+    "options": ["One or more", "Zero or more", "Exactly one", "None"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Which language is NOT regular?",
+    "options": ["a*", "(a+b)*", "a^n b^n", "ε"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Regular languages are closed under?",
+    "options": ["Union", "Intersection", "Complement", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Which theorem tests regularity?",
+    "options": ["Rice theorem", "Pumping lemma", "Halting theorem", "Church thesis"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Pumping lemma is used to?",
+    "options": ["Prove regular", "Disprove regular", "Build DFA", "Optimize NFA"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Every regular expression has equivalent?",
+    "options": ["PDA", "TM", "FA", "CFG"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Smallest language class is?",
+    "options": ["Regular", "CFL", "Recursive", "RE"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Regular Expressions and Languages",
+    "question": "Which grammar generates regular languages?",
+    "options": ["CFG", "CSG", "Regular grammar", "Unrestricted grammar"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "CFG stands for?",
+    "options": ["Context Free Grammar", "Control Flow Graph", "Context Full Grammar", "Compiler Function Grammar"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "CFG generates?",
+    "options": ["Regular languages", "Context-free languages", "Recursive languages", "RE languages"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "Which language is context-free?",
+    "options": ["a^n b^n", "a^n b^n c^n", "Palindrome over 3 symbols", "All"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "Ambiguous grammar has?",
+    "options": ["Single parse tree", "Multiple parse trees", "No derivation", "Infinite symbols"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "Which is NOT CFG?",
+    "options": ["Regular grammar", "Left recursive grammar", "Context-sensitive grammar", "Ambiguous grammar"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "Left recursion causes problem in?",
+    "options": ["Lexical analysis", "Top-down parsing", "Bottom-up parsing", "Code generation"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "Which derivation is used in parsing?",
+    "options": ["Leftmost", "Rightmost", "Both", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "Which grammar is suitable for programming languages?",
+    "options": ["Regular", "Context-free", "Context-sensitive", "Unrestricted"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "Removing ambiguity improves?",
+    "options": ["Speed", "Parsing", "Memory", "Acceptance"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Context Free Grammar",
+    "question": "CFG is mainly used in?",
+    "options": ["Lexical analysis", "Parsing", "Optimization", "Code generation"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "PDA accepts?",
+    "options": ["Regular languages", "Context-free languages", "Recursive languages", "RE languages"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "PDA uses which memory?",
+    "options": ["Queue", "Stack", "Tape", "Register"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "Which automaton is more powerful?",
+    "options": ["FA", "PDA", "Both equal", "None"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "PDA is equivalent to?",
+    "options": ["FA", "CFG", "TM", "LBA"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "Acceptance in PDA can be by?",
+    "options": ["Final state", "Empty stack", "Both", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "Which language PDA cannot accept?",
+    "options": ["a^n b^n", "Palindrome", "a^n b^n c^n", "Balanced parentheses"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "Deterministic PDA is?",
+    "options": ["More powerful", "Less powerful", "Equal to PDA", "None"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "Stack symbols belong to?",
+    "options": ["Input alphabet", "Stack alphabet", "State set", "Output alphabet"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "Which PDA variant is equivalent in power?",
+    "options": ["DPDA", "NPDA", "Both", "None"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Pushdown Automata",
+    "question": "PDA is mainly used in?",
+    "options": ["Lexical analysis", "Parsing", "Optimization", "Execution"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "Turing Machine was proposed by?",
+    "options": ["Alan Turing", "Church", "Gödel", "Shannon"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "TM has?",
+    "options": ["Finite tape", "Infinite tape", "Stack", "Queue"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "TM is more powerful than?",
+    "options": ["FA", "PDA", "Both", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "TM accepts?",
+    "options": ["Regular languages", "CFL", "RE languages", "CSL only"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "TM head can move?",
+    "options": ["Left", "Right", "Stay", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "Universal TM means?",
+    "options": ["Fast TM", "Simulates other TMs", "Accepts all strings", "Multi-tape TM"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "Which problem is undecidable?",
+    "options": ["Palindrome", "Sorting", "Halting problem", "Searching"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "Decidable language means?",
+    "options": ["Always accept", "Always reject", "Halts on all inputs", "Never halts"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "Multi-tape TM is?",
+    "options": ["More powerful", "Less powerful", "Equivalent in power", "Useless"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Turing Machine",
+    "question": "TM defines limits of?",
+    "options": ["Hardware", "Software", "Computation", "Memory"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Undecidable problem means?",
+    "options": ["Solved fast", "No algorithm exists", "Solved by PDA", "Solved by FA"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Halting problem is?",
+    "options": ["Decidable", "Undecidable", "Regular", "CFL"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Church-Turing thesis defines?",
+    "options": ["TM speed", "TM memory", "Concept of computation", "Programming languages"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Which class contains decidable languages?",
+    "options": ["RE", "Recursive", "CFL", "Regular"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Which problems are semi-decidable?",
+    "options": ["Recursive", "RE", "Regular", "CFL"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Reduction is used to?",
+    "options": ["Solve problem", "Prove undecidability", "Optimize TM", "Design grammar"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Rice theorem applies to?",
+    "options": ["Languages", "Programs", "Properties of RE languages", "Automata"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Which is decidable?",
+    "options": ["Halting problem", "Emptiness of DFA", "TM acceptance", "PCP"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Computable function means?",
+    "options": ["Fast", "Polynomial", "Solvable by TM", "Efficient"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Undecidability and Complexity",
+    "question": "Most powerful language class is?",
+    "options": ["Regular", "CFL", "Recursive", "RE"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Compiler is a program that?",
+    "options": ["Interprets code line by line", "Translates high-level code to machine code", "Executes machine code", "Optimizes hardware"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Which is NOT a phase of compiler?",
+    "options": ["Lexical analysis", "Syntax analysis", "Linking", "Semantic analysis"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Compiler differs from interpreter because it?",
+    "options": ["Executes faster", "Produces object code", "Checks syntax only", "Uses no memory"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Front end of compiler includes?",
+    "options": ["Code generation", "Optimization", "Lexical and syntax analysis", "Target code"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Back end of compiler deals with?",
+    "options": ["Parsing", "Symbol table", "Code generation", "Error handling"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Which phase reports syntax errors?",
+    "options": ["Lexical", "Syntax", "Semantic", "Optimization"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Which phase detects invalid variable usage?",
+    "options": ["Lexical", "Syntax", "Semantic", "Code generation"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Which is a cross compiler?",
+    "options": ["Same machine compiler", "Different target machine compiler", "Interpreter", "Assembler"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Which tool generates compiler?",
+    "options": ["LEX", "YACC", "Both", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction to Compiler",
+    "question": "Compiler design is based on?",
+    "options": ["Automata theory", "Data structures", "Algorithms", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Lexical analyzer is also called?",
+    "options": ["Parser", "Scanner", "Optimizer", "Assembler"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Lexical analysis converts source code into?",
+    "options": ["Parse tree", "Tokens", "Syntax tree", "Machine code"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Which tool is used for lexical analysis?",
+    "options": ["YACC", "LEX", "BISON", "PARSER"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Token consists of?",
+    "options": ["Lexeme", "Token name", "Attribute", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Which error is handled by lexical analyzer?",
+    "options": ["Syntax error", "Semantic error", "Invalid token", "Logical error"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Which automaton is used in lexical analysis?",
+    "options": ["PDA", "DFA", "TM", "CFG"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Keywords are identified using?",
+    "options": ["Symbol table", "Token table", "Hash table", "Parse table"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Lexeme is?",
+    "options": ["Token name", "Sequence of characters", "Grammar rule", "Symbol"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Which improves lexical analyzer efficiency?",
+    "options": ["Buffering", "Recursion", "Backtracking", "Parsing"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Lexical Analysis",
+    "question": "Which language theory is used in lexical analysis?",
+    "options": ["Regular expressions", "CFG", "CSG", "TM"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Syntax analyzer is also called?",
+    "options": ["Scanner", "Parser", "Lexer", "Optimizer"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Syntax analysis checks?",
+    "options": ["Meaning", "Structure", "Execution", "Optimization"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Which grammar is used in syntax analysis?",
+    "options": ["Regular grammar", "Context-free grammar", "Context-sensitive grammar", "Unrestricted grammar"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Which parsing is top-down?",
+    "options": ["LR", "SLR", "LL", "CLR"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Which parsing is bottom-up?",
+    "options": ["LL", "Recursive descent", "LR", "Predictive"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Left recursion causes problem in?",
+    "options": ["Bottom-up parsing", "Top-down parsing", "Lexical analysis", "Code generation"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Which parser uses parse table?",
+    "options": ["Recursive descent", "Predictive", "Shift reduce", "Operator precedence"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Which grammar is ambiguous?",
+    "options": ["Multiple parse trees", "Single parse tree", "No derivation", "No terminals"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Which tool is used for syntax analysis?",
+    "options": ["LEX", "YACC", "Assembler", "Linker"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Syntax Analysis",
+    "question": "Shift-reduce conflict occurs in?",
+    "options": ["LL parser", "LR parser", "Recursive descent", "Scanner"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Semantic analysis checks?",
+    "options": ["Syntax", "Meaning", "Structure", "Code"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Type checking is done in?",
+    "options": ["Lexical", "Syntax", "Semantic", "Optimization"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Which error is semantic error?",
+    "options": ["Missing semicolon", "Type mismatch", "Invalid token", "Extra bracket"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Symbol table is mainly used in?",
+    "options": ["Lexical", "Syntax", "Semantic", "Code generation"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Scope resolution is done in?",
+    "options": ["Lexical", "Syntax", "Semantic", "Optimization"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Which detects undeclared variables?",
+    "options": ["Parser", "Lexer", "Semantic analyzer", "Optimizer"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Type coercion means?",
+    "options": ["Type conversion", "Syntax change", "Memory allocation", "Optimization"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Which representation is produced after semantic analysis?",
+    "options": ["Tokens", "Parse tree", "Annotated syntax tree", "Machine code"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Which phase ensures consistency?",
+    "options": ["Lexical", "Syntax", "Semantic", "Code generation"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Semantic Analysis",
+    "question": "Attribute grammar is used in?",
+    "options": ["Lexical", "Syntax", "Semantic", "Optimization"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Code optimization aims to?",
+    "options": ["Reduce execution time", "Reduce memory usage", "Improve efficiency", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Which optimization is machine independent?",
+    "options": ["Peephole", "Loop optimization", "Register allocation", "Instruction scheduling"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Dead code elimination removes?",
+    "options": ["Unused variables", "Unreachable code", "Redundant code", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Constant folding is?",
+    "options": ["Compile time evaluation", "Runtime evaluation", "Memory optimization", "Register optimization"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Which optimization reduces loop execution?",
+    "options": ["Loop unrolling", "Inlining", "Peephole", "Strength reduction"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Peephole optimization works on?",
+    "options": ["High-level code", "Intermediate code", "Target code", "Source code"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Common subexpression elimination removes?",
+    "options": ["Duplicate expressions", "Dead code", "Loops", "Constants"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Which is not an optimization goal?",
+    "options": ["Speed", "Size", "Readability", "Power"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Strength reduction replaces?",
+    "options": ["Costly operations", "Variables", "Constants", "Loops"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Code Optimization",
+    "question": "Which phase mainly performs optimization?",
+    "options": ["Front end", "Middle end", "Back end", "Linker"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Code generation produces?",
+    "options": ["Intermediate code", "Target code", "Parse tree", "Tokens"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Target code can be?",
+    "options": ["Assembly code", "Machine code", "Bytecode", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Which phase allocates registers?",
+    "options": ["Lexical", "Syntax", "Semantic", "Code generation"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Instruction selection depends on?",
+    "options": ["Target machine", "Source language", "Parser", "Lexer"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Which graph is used for register allocation?",
+    "options": ["Flow graph", "Interference graph", "Parse graph", "Syntax tree"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Which technique assigns registers efficiently?",
+    "options": ["Greedy", "Graph coloring", "Backtracking", "Parsing"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Which code is machine dependent?",
+    "options": ["Source code", "Intermediate code", "Target code", "IR"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Instruction scheduling improves?",
+    "options": ["Speed", "Memory", "Syntax", "Parsing"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Which phase emits final executable?",
+    "options": ["Compiler", "Assembler", "Linker", "Loader"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Code Generation",
+    "question": "Code generation is final phase of?",
+    "options": ["Interpreter", "Assembler", "Compiler", "Linker"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "Artificial Intelligence is concerned with?",
+    "options": [
+      "Natural intelligence",
+      "Making machines intelligent",
+      "Programming languages",
+      "Computer hardware"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "Who is known as the father of Artificial Intelligence?",
+    "options": ["Alan Turing", "John McCarthy", "Herbert Simon", "Marvin Minsky"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "Which test evaluates machine intelligence?",
+    "options": ["IQ test", "Turing Test", "Performance test", "Logic test"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "AI technique enables machines to learn from experience?",
+    "options": ["Heuristics", "Machine Learning", "Planning", "Reasoning"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "Which is NOT an AI application?",
+    "options": ["Expert systems", "Robotics", "Database management", "Natural language processing"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "Strong AI refers to?",
+    "options": ["Narrow intelligence", "Human-level intelligence", "Rule-based systems", "Search algorithms"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "Which AI branch deals with understanding language?",
+    "options": ["Robotics", "NLP", "Vision", "Planning"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "Weak AI is also known as?",
+    "options": ["General AI", "Narrow AI", "Strong AI", "Super AI"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "Which language is widely used in AI?",
+    "options": ["C", "Java", "LISP", "HTML"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Introduction to Artificial Intelligence",
+    "question": "AI systems primarily aim to?",
+    "options": ["Replace humans", "Simulate intelligent behavior", "Increase memory", "Improve hardware"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Problem solving in AI involves?",
+    "options": [
+      "Coding only",
+      "Searching solution space",
+      "Hardware design",
+      "Data storage"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Which search technique is uninformed?",
+    "options": ["A*", "Greedy", "Breadth First Search", "Hill climbing"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Which search algorithm guarantees shortest path?",
+    "options": ["DFS", "BFS", "Hill climbing", "Greedy"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Which search uses heuristic information?",
+    "options": ["DFS", "BFS", "Informed search", "Blind search"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Which algorithm combines cost and heuristic?",
+    "options": ["DFS", "BFS", "A*", "Greedy"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Hill climbing may fail due to?",
+    "options": ["Global optimum", "Local optimum", "Complete search", "Memory overflow"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Which search explores deepest node first?",
+    "options": ["BFS", "DFS", "A*", "Uniform cost"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "State space represents?",
+    "options": [
+      "All possible states",
+      "Initial state only",
+      "Goal state only",
+      "Heuristic function"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Which algorithm is complete and optimal?",
+    "options": ["DFS", "Hill climbing", "A*", "Greedy"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Problem Solving and Search Techniques",
+    "question": "Uniform cost search is optimal when?",
+    "options": ["Costs are positive", "Costs are negative", "Graph is cyclic", "Heuristic is used"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Knowledge representation deals with?",
+    "options": [
+      "Storing data",
+      "Representing knowledge for reasoning",
+      "Searching data",
+      "Learning models"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Which is a declarative knowledge?",
+    "options": ["Facts", "Procedures", "Algorithms", "Programs"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Which logic is used in AI?",
+    "options": ["Boolean logic", "Predicate logic", "Fuzzy logic", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Semantic networks represent knowledge using?",
+    "options": ["Tables", "Graphs", "Trees", "Matrices"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Frames represent?",
+    "options": ["Objects and attributes", "Rules", "Search space", "Heuristics"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Production rules are of the form?",
+    "options": ["If-then", "While-do", "For-loop", "Case"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Which knowledge is about how to do things?",
+    "options": ["Declarative", "Procedural", "Meta", "Structural"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Ontology defines?",
+    "options": [
+      "Data types",
+      "Concepts and relationships",
+      "Algorithms",
+      "Search trees"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Which representation supports inheritance?",
+    "options": ["Frames", "Rules", "Logic", "Search"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Knowledge Representation",
+    "question": "Knowledge base contains?",
+    "options": ["Facts and rules", "Programs", "Hardware", "Memory"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Reasoning is the process of?",
+    "options": [
+      "Learning",
+      "Drawing conclusions",
+      "Searching",
+      "Planning actions"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Forward chaining is?",
+    "options": [
+      "Data-driven",
+      "Goal-driven",
+      "Heuristic-driven",
+      "Search-driven"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Backward chaining is?",
+    "options": [
+      "Data-driven",
+      "Goal-driven",
+      "Random",
+      "Blind"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Planning involves?",
+    "options": [
+      "Selecting actions",
+      "Representing knowledge",
+      "Learning models",
+      "Building hardware"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Which planning uses STRIPS?",
+    "options": ["Classical planning", "Reactive planning", "Probabilistic planning", "Learning"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Inference engine is part of?",
+    "options": ["Expert system", "Neural network", "Search algorithm", "Database"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Non-monotonic reasoning allows?",
+    "options": [
+      "No changes in conclusions",
+      "Revising conclusions",
+      "Only forward reasoning",
+      "Only backward reasoning"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Which reasoning handles uncertainty?",
+    "options": ["Probabilistic reasoning", "Deductive reasoning", "Inductive reasoning", "Abductive reasoning"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Bayesian networks are used for?",
+    "options": [
+      "Learning",
+      "Reasoning under uncertainty",
+      "Search",
+      "Planning"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Reasoning and Planning",
+    "question": "Planning problem consists of?",
+    "options": [
+      "Initial state, actions, goal",
+      "Only actions",
+      "Only goals",
+      "Only states"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Machine learning enables systems to?",
+    "options": [
+      "Be explicitly programmed",
+      "Learn from data",
+      "Store data",
+      "Execute programs"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Which learning uses labeled data?",
+    "options": ["Unsupervised", "Reinforcement", "Supervised", "Semi-supervised"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Which learning uses rewards?",
+    "options": ["Supervised", "Unsupervised", "Reinforcement", "Clustering"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Overfitting means?",
+    "options": [
+      "Model performs well on training but poor on test",
+      "Model performs well everywhere",
+      "Under training",
+      "Less data"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Which algorithm is supervised?",
+    "options": ["K-means", "Decision tree", "Apriori", "PCA"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Clustering belongs to?",
+    "options": ["Supervised", "Unsupervised", "Reinforcement", "Hybrid"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Which is NOT a learning type?",
+    "options": ["Supervised", "Unsupervised", "Reinforcement", "Deterministic"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Feature selection improves?",
+    "options": ["Accuracy", "Speed", "Overfitting", "All"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Bias-variance tradeoff deals with?",
+    "options": ["Accuracy", "Generalization", "Speed", "Memory"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Machine Learning Basics",
+    "question": "Which model mimics human brain?",
+    "options": ["Decision tree", "Neural network", "SVM", "KNN"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Expert system is?",
+    "options": [
+      "Database system",
+      "Computer system that emulates human expert",
+      "Operating system",
+      "Compiler"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Main components of expert system?",
+    "options": [
+      "Knowledge base and inference engine",
+      "Compiler and interpreter",
+      "CPU and memory",
+      "Database and server"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Knowledge base contains?",
+    "options": ["Facts and rules", "Programs", "Algorithms", "Hardware"],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Inference engine performs?",
+    "options": ["Learning", "Reasoning", "Searching", "Planning"],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Which is NOT an expert system application?",
+    "options": ["Medical diagnosis", "Weather forecasting", "Word processing", "Fault diagnosis"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Knowledge acquisition is?",
+    "options": [
+      "Gathering knowledge from experts",
+      "Learning from data",
+      "Searching",
+      "Reasoning"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Which reasoning is commonly used?",
+    "options": ["Forward chaining", "Backward chaining", "Both", "None"],
+    "correctAnswer": 2
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Explanation facility provides?",
+    "options": [
+      "System output",
+      "Justification of reasoning",
+      "Learning",
+      "Planning"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Shell in expert system provides?",
+    "options": ["Knowledge", "Inference engine", "User interface", "All except knowledge"],
+    "correctAnswer": 3
+  },
+  {
+    "unitTitle": "Expert Systems",
+    "question": "Limitation of expert systems?",
+    "options": [
+      "Lack of common sense",
+      "High cost",
+      "Limited learning",
+      "All"
+    ],
+    "correctAnswer": 3
+  }
+]
+

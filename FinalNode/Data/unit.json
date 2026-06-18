@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Data Structures and Algorithms",
+    "description": "Core subject covering arrays, linked lists, stacks, queues, trees, graphs, sorting and searching algorithms."
+  },
+  {
+    "title": "Operating Systems",
+    "description": "Study of process management, CPU scheduling, memory management, deadlocks, file systems and I/O."
+  },
+  {
+    "title": "Database Management Systems",
+    "description": "Concepts of databases including ER model, relational model, SQL, normalization, transactions and recovery."
+  },
+  {
+    "title": "Computer Networks",
+    "description": "Networking fundamentals including OSI model, TCP/IP, routing, transport layer and network security."
+  },
+  {
+    "title": "Object Oriented Programming",
+    "description": "Object-oriented concepts such as classes, objects, inheritance, polymorphism, abstraction and exception handling."
+  },
+  {
+    "title": "Software Engineering",
+    "description": "Software development life cycle, requirement analysis, design, testing, maintenance and project management."
+  },
+  {
+    "title": "Computer Organization and Architecture",
+    "description": "Internal structure of computer systems including CPU, memory, instruction sets, pipelining and parallelism."
+  },
+  {
+    "title": "Theory of Computation",
+    "description": "Formal languages, automata theory, grammars, Turing machines and computational complexity."
+  },
+  {
+    "title": "Compiler Design",
+    "description": "Design and implementation of compilers including lexical analysis, parsing, semantic analysis and code generation."
+  },
+  {
+    "title": "Artificial Intelligence",
+    "description": "Introduction to AI concepts such as problem solving, search techniques, knowledge representation and reasoning."
+  }
+]
